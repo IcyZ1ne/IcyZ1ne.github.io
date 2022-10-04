@@ -9,7 +9,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
    <!-- site metas -->
-   <title>Contact Us</title>
+   <title>Testimonial</title>
    <meta name="keywords" content="">
    <meta name="description" content="">
    <meta name="author" content="">
@@ -42,10 +42,11 @@
 
    <div id="mySidebar" class="sidebar">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-      <a href="index.html">Pagina Principala</a>
-      <a href="about.html">Despre Noi</a>
-      <a href="gallery.html">Galerie</a>
-      <a href="contact.html">Contacteaza-ne</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">gallery</a>
+      <a href="testimonial.html">testimonial</a>
+      <a href="contact.html">Contact</a>
    </div>
 
 
@@ -64,57 +65,38 @@
                <div class="togle_3">
                   <div class="left_main">
                      <div class="menu_main">
-                        <a href="#"><i class="fa fa-fw fa-user"></i> Contul meu</a>
+                        <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
                      </div>
                   </div>
                   <div class="middle_main">
-                     <div class="shoping_bag"><a href="#"><img src="images/shopping-bag.png"
-                              style="cursor:pointer;"></a></div>
+                     <div class="shoping_bag"><a href="#"><img src="images/shopping-bag.png" style="cursor:pointer;"></a></div>
                   </div>
                   <div class="right_main">
-                     <div class="togle_main"><a class="class=" openbtn onclick="openNav()"><img
-                              src="images/togle-menu-icon.png" style="max-width: 100%;cursor:pointer;"></a></div>
+                     <div class="togle_main"><a class="class=" openbtn onclick="openNav()"><img src="images/togle-menu-icon.png" style="max-width: 100%;cursor:pointer;"></a></div>
                   </div>
                </div>
             </div>
          </div>
       </div>
 
-      <div class="contact_section layout_padding">
+      <!-- Testimonial section start -->
+      <div class="testimonial_section layout_padding">
          <div class="container">
-            <h1 class="contact_text"><strong>Contacteaza-ne</strong></h1>
-         </div>
-         <div class="contact_main">
-            <div class="enput_section">
-               <div class="email_box">
-                  <div class="input_main">
-                     <div class="container">
-                        <form action="/action_page.php">
-                           <div class="form-group">
-                              <input type="text" class="email-bt" placeholder="Nume" name="Name">
-                           </div>
-                           <div class="form-group">
-                              <input type="text" class="email-bt" placeholder="Mail" name="Name">
-                           </div>
-                           <div class="form-group">
-                              <input type="text" class="email-bt" placeholder="Numar de telefon (optional)" name="Email">
-                           </div>
-
-                           <div class="form-group">
-                              <textarea class="massage-bt" placeholder="Mesajul tau" rows="5" id="comment"
-                                 name="Massage"></textarea>
-                           </div>
-                        </form>
-                     </div>
-                     <div class="send_btn">
-                        <button type="button" class="main_bt">Trimite!</button>
-                     </div>
-                  </div>
-               </div>
-            </div>
+            <h1 class="contact_text"><strong>Testimonial</strong></h1>
+            <p class="dolore_text">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+               magna </p>
+            <div class="images_3"><img src="images/img-3.png"></div>
+            <h2 class="rooty_text">Rooty</h2>
+            <p class="ice_text">(lcc)</p>
+            <div><img src="images/left-quote.png"></div>
+            <p class="dolore_text">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+               magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation consectetur adipiscing elit, sed do
+               eiusmod tempor incididunt ut labore et dolore , quis nostrud exercitation </p>
+            <div class="right_quote"><img src="images/right-quote.png"></div>
          </div>
       </div>
 
+      <!-- Testimonial section end -->
 
       <!-- footer section start -->
       <div class="footer_section layout_padding">
@@ -145,13 +127,12 @@
                </div>
                <div class="col-sm-4">
                   <h2 class="important_text">Afla primul promotiile saptamanii</h2>
-                  <p class="footer_lorem_text">Inscrie-te la newsletter pentru a primi noutăți, informații despre
-                     produse și oferte speciale!</p>
+                  <p class="footer_lorem_text">Inscrie-te la newsletter pentru a primi noutăți, informații despre produse și oferte speciale!</p>
                   <div class="input-group mb-3">
-                     <input type="text" class="form-control" placeholder="adresa ta de email aici"
-                        aria-label="Recipient's username" aria-describedby=" basic-addon2" style="font-size:100%;">
+                     <input type="text" class="form-control" placeholder="adresa ta de email aici" aria-label="Recipient's username"
+                        aria-describedby=" basic-addon2" style="font-size:100%;">
                      <div class="input-group-append">
-                        <span class="input-group-text" id="basic-addon2" style="cursor: pointer;">Inscrie-ma</span>
+                        <span class="input-group-text" id="basic-addon2">Inscrie-ma</span>
                      </div>
                   </div>
                </div>
@@ -160,8 +141,7 @@
       </div>
       <!-- footer section start -->
       <!-- copyright section start -->
-      <div class="copyright_text">© 2022 URBANSPEED.ro | Toate drepturile <span
-            style="color: #ffffff">(NE)</span>rezervate. </div>
+      <div class="copyright_text">© 2022 URBANSPEED.ro | Toate drepturile <span style="color: #ffffff">(NE)</span>rezervate. </div>
 
    </div>
 
@@ -190,15 +170,15 @@
    </script>
 
    <script>
-      function openNav() {
-         document.getElementById("mySidebar").style.width = "250px";
-         document.getElementById("main").style.marginLeft = "250px";
-      }
+            function openNav() {
+               document.getElementById("mySidebar").style.width = "250px";
+               document.getElementById("main").style.marginLeft = "250px";
+            }
 
-      function closeNav() {
-         document.getElementById("mySidebar").style.width = "0";
-         document.getElementById("main").style.marginLeft = "0";
-      }
+            function closeNav() {
+               document.getElementById("mySidebar").style.width = "0";
+               document.getElementById("main").style.marginLeft = "0";
+            }
    </script>
 
 </body>
